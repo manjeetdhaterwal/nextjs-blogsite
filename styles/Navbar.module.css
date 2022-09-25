@@ -1,0 +1,16 @@
+.mainnavbar ul
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mainnavbar ul li{
+    margin: 0 24px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.mainnavbar ul li a{
+    cursor: pointer;
+}
