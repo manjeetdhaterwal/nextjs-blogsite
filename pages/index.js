@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import style1  from '../styles/Navbar.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
           A Blog for Noobs to become a Pro
         </p>
 
-        <img src="favicon.ico" alt="icon"  className={styles.img}/>
+        <Image src="favicon.ico" alt="icon"  className={styles.img}/>
 
         <div className={styles.grid}>
          <div className="blogs">
